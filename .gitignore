@@ -17,7 +17,8 @@
 !README.md
 !LICENSE
 
-!output*.png
+!examples/*.txt
+!examples/*.jpg
 
 # !Makefile
 
