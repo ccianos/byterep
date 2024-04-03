@@ -1,6 +1,6 @@
 # ByteRep
 
-This is a simple command-line tool for encoding and decoding images to and from bytes, with an option to display images using Unicode characters.
+This is a simple command-line tool for encoding and decoding images to and from bytes, with an option to display images on the command-line using Unicode characters.
 
 ## Installation
 
