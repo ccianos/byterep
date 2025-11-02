@@ -38,6 +38,10 @@ Display an image using Unicode characters:
 ./byterep -decode -input encoded_image.txt
 ```
 
+```bash
+./byterep -decode -input input_image.jpg
+```
+
 ## Options
 
 - `-encode`: Encode the input image to bytes
