@@ -8,7 +8,7 @@ Clone the repository and build the executable:
 
 ```bash
 git clone https://github.com/ccianos/byterep.git
-cd byte-representation
+cd byterep
 go build -o byterep
 ```
 
