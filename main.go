@@ -98,6 +98,7 @@ func main() {
 	// Define command-line flags
 	encodeFlag := flag.Bool("encode", false, "Encode the input image to bytes")
 	decodeFlag := flag.Bool("decode", false, "Decode the encoded data and display (as Unicode if TTY, as bytes if redirected)")
+	unicodeFlag := flag.Bool("unicode", false, "Force Unicode text output, even when redirecting")
 	inputFlag := flag.String("input", "", "Input file path")
 	helpFlag := flag.Bool("help", false, "Show help message")
 
