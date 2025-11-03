@@ -143,7 +143,7 @@ func main() {
 		}
 
 		// Check if output is terminal or redirected
-		if isTTY() {
+		if isTTY() || *unicodeFlag {
 			// Display the decoded image with Unicode
 			displayImageWithUnicode(decodedImg)
 		} else {
