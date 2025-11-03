@@ -56,10 +56,22 @@ When you redirect the output (using `>`), the command writes the raw image bytes
 ./byterep -decode -input encoded_image.txt > decoded_image.png
 ```
 
+3. Force Display of Unicode Text (Redirected Output)
+
+```bash
+# You can force Unicode text on redirected output
+./byterep -decode -unicode -input input_image.jpg > unicode_output.txt
+
+./byterep -decode -unicode -input input_image.png > unicode_output.txt
+
+./byterep -decode -unicode -input encoded_image.txt > unicode_output.txt
+```
+
 ## Options
 
 - `-encode`: Encode the input **JPEG** or **PNG** image to bytes
 - `-decode`: Decode the encoded data. **Displays as Unicode to a terminal, or writes raw image bytes if redirected.**
+- `-unicode`: **Force** Unicode text output, even when redirecting.
 - `-input`: Input file path
 - `-help`: Show help message
 
